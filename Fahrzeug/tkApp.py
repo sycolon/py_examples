@@ -76,7 +76,7 @@ def aktualisiere_fahrzeug_anzeig():
     gesamt_fahrzeuge_label.config(text=Fahrzeug.get_anzahl_fahrzeuge())
 
 root = tk.Tk() #Hauptfenster
-root.title("Fahrzeugverwaltung")
+root.title("Fahrzeugverwaltung V0.1.0")
 root.geometry("800x500")
 
 tk.Label(root, text="Marke:").grid(row=0, column=0, sticky="w", pady=2, padx=5)
